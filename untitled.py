@@ -7,8 +7,8 @@ counter = 0
 while True:
     if(shuffled):
         random_word = random.choice(shuffled)
-        input = input("enter random word: ")
-        if(random_word == input):
+        word_input = input("enter random word: ")
+        if(random_word == word_input):
             print("correct")
             counter = counter + 1
         else:
