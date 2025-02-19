@@ -16,5 +16,5 @@ while True:
         
         shuffled.remove(random_word)
     else:
-        print(counter + " out of " + len(words))
+        print(str(counter) + " out of " + str(len(words)))
         break
