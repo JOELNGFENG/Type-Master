@@ -1,7 +1,8 @@
+import random
 words = ["bowl","aaa","three"]
 
 while True:
     if(words):
-        pass
+        random_word = random.choice(words)
     else:
         break
